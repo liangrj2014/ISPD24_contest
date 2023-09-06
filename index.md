@@ -1,10 +1,18 @@
-# ISPD24_contest
+# ISPD24 Contest: GPU/ML-Enhanced Large Scale Global Routing
 
- 一个热爱创作的程序员。
+<img width="1000" alt="profile" src="etc/ispd_header.png">
 
-GitHub 主页：[@chen-ni](https://github.com/chen-ni)
+### Contest Introduction
 
-<img width="800" alt="profile" src="etc/ispd_header.png">
+### Anouncement
+
+### Registration Form
+
+- https://form.jotform.com/232454622032143
+
+### Benchmarks
+
+### Q&A
 
 ### 创作平台
 
@@ -19,13 +27,8 @@ GitHub 主页：[@chen-ni](https://github.com/chen-ni)
 - Medium：[@chen.ni](https://medium.com/@chen.ni)
 - YouTube：[Chen Ni](https://www.youtube.com/channel/UCFUVkQ6DNToEPjgbmXhhvlA)
 
-### 译著
+### Contact
 
-- [《敏捷实战：破解敏捷落地的60个难题》](https://book.douban.com/subject/35222610/)，图灵程序设计丛书，人民邮电出版社，2020年9月
-- [《生成对抗网络项目实战》](https://book.douban.com/subject/34925965/)，图灵程序设计丛书，人民邮电出版社，2020年1月
-- [《Python计算机视觉和自然语言处理》](https://book.douban.com/subject/36014673/)，异步图书，人民邮电出版社，2021年6月
+- Email：ispd2024contest@gmail.com
 
-### 联系方式
-
-- 领英：[Chen Ni](https://www.linkedin.com/in/chen-ni-2b40491b6/)
-- 邮箱：nichen301@sina.com
+<img width="800" alt="profile" src="etc/nvidia_logo.png">
