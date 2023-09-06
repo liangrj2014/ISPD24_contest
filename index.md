@@ -4,7 +4,7 @@
 
 GitHub 主页：[@chen-ni](https://github.com/chen-ni)
 
-<img width="200" alt="profile" src="etc/ispd_header.png">
+<img width="800" alt="profile" src="etc/ispd_header.png">
 
 ### 创作平台
 
