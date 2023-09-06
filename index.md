@@ -9,7 +9,16 @@
 ### Registration
 
 - Please fill in this online registration form: https://form.jotform.com/232454622032143
-- Registration window: Sep 11 2023 - Oct 15 2023
+- Registration window: Sep 11, 2023 - Oct 15, 2023
+
+### Important Dates
+
+- Registration Open: Sep 11, 2023
+- Registration Open: Oct 15, 2023
+- Alpha Submission:
+- Beta Submission:
+- Final Submission:
+- Results Anouncment:
 
 ### Benchmarks
 
