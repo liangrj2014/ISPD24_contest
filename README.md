@@ -1,1 +1,0 @@
-# ISPD24_contest
