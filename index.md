@@ -16,11 +16,11 @@ GPU/ML-Enhanced Large Scale Global Routing
 ### Important Dates
 
 - Registration Open: Sep 11, 2023
-- Registration Open: Oct 15, 2023
+- Registration Close: Oct 15, 2023
 - Alpha Submission:
 - Beta Submission:
 - Final Submission:
-- Results Anouncment:
+- Results Anouncement:
 
 ### Benchmarks
 
