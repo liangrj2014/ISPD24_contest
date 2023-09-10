@@ -17,13 +17,16 @@ GPU/ML-Enhanced Large Scale Global Routing
 
 - Registration Open: Sep 11, 2023
 - Registration Close: Oct 15, 2023
-- Alpha Submission:
-- Beta Submission:
-- Final Submission:
-- Results Anouncement:
+- Alpha Submission: TBA
+- Beta Submission: TBA
+- Final Submission: TBA
+- Results Anouncement: TBA
 
-### Benchmarks
+### Downloads
 
+- First set of benchmarks with Nangate45 technology node: https://drive.google.com/drive/folders/1afrsbeS_KuSeHEVfuQOuLWPuuZqlDVlw?usp=sharing
+- Docker for environment setup: nvcr.io/nvidian/research/ispd24:v0
+  
 ### Q&A
 
 - Please post your questions in GitHub Issues
@@ -32,4 +35,6 @@ GPU/ML-Enhanced Large Scale Global Routing
 
 - Email：ispd2024contest@gmail.com
 
-<img width="800" alt="profile" src="etc/nvidia_logo.png">
+### Sponsor
+ - Sponsored by NVIDIA
+<img width="600" alt="profile" src="etc/nvidia_logo.png">
