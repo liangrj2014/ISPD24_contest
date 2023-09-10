@@ -7,6 +7,9 @@
 GPU/ML-Enhanced Large Scale Global Routing
 
 ### Anouncement
+- Registration opens on Sep 11, 2023!
+- Released the first set of benchmarks on Sep 11, 2023
+- Released the docker for environment setup on Sep 11, 2023
 
 ### Registration
 
