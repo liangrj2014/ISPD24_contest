@@ -23,7 +23,7 @@ GPU/ML-Enhanced Large Scale Global Routing
 - Alpha Submission: TBA
 - Beta Submission: TBA
 - Final Submission: TBA
-- Results Anouncement: TBA
+- Results Anouncement: March 13, 2024
 
 ### Downloads
 
