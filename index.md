@@ -10,7 +10,7 @@ GPU/ML-Enhanced Large Scale Global Routing
 
 ### Registration
 
-- Please fill in this online registration form: https://form.jotform.com/232454622032143
+- Please fill in this online registration form: (https://form.jotform.com/232454622032143)
 - Registration window: Sep 11, 2023 - Oct 15, 2023
 
 ### Important Dates
@@ -24,8 +24,8 @@ GPU/ML-Enhanced Large Scale Global Routing
 
 ### Downloads
 
-- First set of benchmarks with Nangate45 technology node: https://drive.google.com/drive/folders/1afrsbeS_KuSeHEVfuQOuLWPuuZqlDVlw?usp=sharing
-- Docker for environment setup: nvcr.io/nvidian/research/ispd24:v0
+- First set of benchmarks with Nangate45 technology node: (https://drive.google.com/drive/folders/1afrsbeS_KuSeHEVfuQOuLWPuuZqlDVlw?usp=sharing)
+- Docker for environment setup: (nvcr.io/nvidian/research/ispd24:v0)
   
 ### Q&A
 
