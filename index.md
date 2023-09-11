@@ -78,7 +78,7 @@ Figure 1 Example of GCell definition and global routing solution. (a) shows an e
 
 ### Registration
 
-- Please fill in this online registration form: (https://form.jotform.com/232454622032143)
+- Please fill in this [online registration form](https://form.jotform.com/232454622032143)
 - Registration window: Sep 11, 2023 - Oct 15, 2023
 
 ### Important Dates
