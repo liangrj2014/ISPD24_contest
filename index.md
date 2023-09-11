@@ -31,7 +31,7 @@ Notably, contemporary VLSI circuits frequently encompass more than 50 million ce
 - Results Anouncement: March 13, 2024
 
 ### Downloads
-
+- Introduction of the contest: (https://drive.google.com/file/d/111_a2kObt3tcjj1IQFXMCNCpQwPyBlZs/view?usp=sharing)
 - First set of benchmarks with Nangate45 technology node: (https://drive.google.com/drive/folders/1afrsbeS_KuSeHEVfuQOuLWPuuZqlDVlw?usp=sharing)
 - Docker for environment setup: (nvcr.io/nvidian/research/ispd24:v0)
   
