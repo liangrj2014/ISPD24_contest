@@ -54,18 +54,20 @@ The global routing solution is described in the GCell coordinate system. And the
 In the above example, five wires are defined for Net0, each covers one or multiple contiguous GCells. And "0 2 4 3 Metal3" represents a wire cover GCells (0,2), (1,2), (2,2) and (3,2) on metal 3.
 The total wire length of this routing solution is calculated by summing up the wire length on all metal layers:
 
-WL\_M1 = (50) + (100) = 150,
+         $WL\_M1 = (50) + (100) = 150$,
 
-WL\_M2 = (25 + 100 + 50) + (50 + 50) = 275,
+         WL\_M2 = (25 + 100 + 50) + (50 + 50) = 275,
 
-WL\_M3 = 50 + 200 + 200 + 100 = 550,
+         WL\_M3 = 50 + 200 + 200 + 100 = 550,
 
-Total\_WL = WL\_M1 + WL\_M2 + WL\_M3 = 975.
+         Total\_WL = WL\_M1 + WL\_M2 + WL\_M3 = 975.
 
 This routing solution necessitates the use of four vias, comprising two vias transitioning from metal 1 to metal 2, and an additional two vias from metal 2 to metal 3.
 
 
 To be considered valid, a global routing solution for a net must ensure that all pins of the net are covered by its wires, and the wires collectively form a connected graph. In this graph representation, each wire corresponds to a vertex. An edge exists between two vertices (wires) if they satisfy either of the following conditions: (i) they touch each other on the same metal layer, or (ii) they reside on neighboring metal layers and have a non-zero overlapping area. The resulting graph must be a connected structure. For an overall global routing solution to be deemed valid, it must satisfy the validity criteria for all nets in the circuit.
+
+<img width="1000" alt="profile" src="etc/GCell_GR_solution.png">
 
 ### Anouncement
 - Registration opens on Sep 11, 2023!
