@@ -4,7 +4,12 @@
 
 ### Contest Introduction
 
-GPU/ML-Enhanced Large Scale Global Routing
+Global routing plays a pivotal role in the VLSI design flow as it significantly impacts the timing, power, and routability of a circuit. Moreover, the efficiency of global routing is of great importance, since faster global routing can significantly enhance both the runtime and the quality of routability-driven placement algorithms.
+
+Over the past decade, GPU accelerated computing platforms have been evolving into highly versatile and programmable systems capable of delivering immense parallel computing power. Recent studies have successfully leveraged GPUs to achieve over a 10x acceleration in global routing without compromising performance. Furthermore, machine learning (ML) techniques have been integrated into the global routing process, leading to enhanced routing solution quality.
+
+The goal of the contest is to spur academic research for developing GPU/ML-enhanced global router for industrial-level circuits. 
+Notably, contemporary VLSI circuits frequently encompass more than 50 million cells, in stark contrast to prior global routing competitions which have traditionally concentrated on scenarios involving no more than 1 million cells. By igniting interest and innovation within the global routing research community, this competition aspires to yield substantial reductions in global routing runtime for these expansive industrial-grade circuits, leveraging the computational prowess of GPUs and the potential of machine learning techniques. Concomitantly, it endeavors to elevate the overall quality of routing outcomes.
 
 ### Anouncement
 - Registration opens on Sep 11, 2023!
