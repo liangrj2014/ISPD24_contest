@@ -30,9 +30,9 @@ Here is an example of GCell definition:
         CGELLGRID Y 0 DO 2 STEP 50;
 
 }
-\Cref{fig:GR_sol} (a) illustrates the GCell definition along with the methodology for defining GCell coordinates.
+Figure 1 (a) illustrates the GCell definition along with the methodology for defining GCell coordinates.
 
-The output will be the GCell-based routing solution file. Here is an illustrative example of a global routing solution for a net (as depicted in \Cref{fig:GR_sol} (b)):
+The output will be the GCell-based routing solution file. Here is an illustrative example of a global routing solution for a net (as depicted in Figure 1 (b)):
 
 Net0
 
