@@ -13,7 +13,7 @@ Notably, contemporary VLSI circuits frequently encompass more than 50 million ce
 
 ### Input/Output Format
 
-The design and technology specifications are presented in the widely used standard LEF/DEF format. The DEF file also specifies dimensions and locations of GCells. A typical GCell dimension is $15\times 15$ M2 tracks. To successfully extract the relevant design and technology details, teams will be required to parse information from both the LEF and DEF files. For assistance in this process, a helpful starting point is the LEF/DEF parser here: https://si2.org/oa-tools-utils-libs/. 
+The design and technology specifications are presented in the widely used standard LEF/DEF format. The DEF file also specifies dimensions and locations of GCells. A typical GCell dimension is $15\times 15$ M2 tracks. To successfully extract the relevant design and technology details, teams will be required to parse information from both the LEF and DEF files. For assistance in this process, a helpful starting point is the [LEF/DEF parser](https://si2.org/oa-tools-utils-libs/) here. 
 
 Here is an example of GCell definition:
 
@@ -91,9 +91,9 @@ Figure 1 Example of GCell definition and global routing solution. (a) shows an e
 - Results Anouncement: March 13, 2024
 
 ### Downloads
-- Introduction of the contest: (https://drive.google.com/file/d/111_a2kObt3tcjj1IQFXMCNCpQwPyBlZs/view?usp=sharing)
-- First set of benchmarks with Nangate45 technology node: (https://drive.google.com/drive/folders/1afrsbeS_KuSeHEVfuQOuLWPuuZqlDVlw?usp=sharing)
-- Docker for environment setup: (nvcr.io/nvidian/research/ispd24:v0)
+- [Introduction of the contest](https://drive.google.com/file/d/111_a2kObt3tcjj1IQFXMCNCpQwPyBlZs/view?usp=sharing)
+- [First set of benchmarks with Nangate45 technology node](https://drive.google.com/drive/folders/1afrsbeS_KuSeHEVfuQOuLWPuuZqlDVlw?usp=sharing)
+- [Docker for environment setup](nvcr.io/nvidian/research/ispd24:v0)
   
 ### Q&A
 
