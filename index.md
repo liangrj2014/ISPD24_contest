@@ -18,11 +18,11 @@ The design and technology specifications are presented in the widely used standa
 Here is an example of GCell definition:
 
         {   
-        CGELLGRID X 700 DO 2 STEP 100;     
-        CGELLGRID X 100 DO 4 STEP 200;    
-        CGELLGRID X 0 DO 2 STEP 100;
-        CGELLGRID Y 50 DO 4 STEP 100;
-        CGELLGRID Y 0 DO 2 STEP 50;
+           CGELLGRID X 700 DO 2 STEP 100;     
+           CGELLGRID X 100 DO 4 STEP 200;    
+           CGELLGRID X 0 DO 2 STEP 100;
+           CGELLGRID Y 50 DO 4 STEP 100;
+           CGELLGRID Y 0 DO 2 STEP 50;
         }
 Figure 1 (a) illustrates the GCell definition along with the methodology for defining GCell coordinates.
 
