@@ -17,38 +17,25 @@ The design and technology specifications are presented in the widely used standa
 
 Here is an example of GCell definition:
 
-   {
-   
-        CGELLGRID X 700 DO 2 STEP 100;
-     
-        CGELLGRID X 100 DO 4 STEP 200;
-    
+        {   
+        CGELLGRID X 700 DO 2 STEP 100;     
+        CGELLGRID X 100 DO 4 STEP 200;    
         CGELLGRID X 0 DO 2 STEP 100;
-
         CGELLGRID Y 50 DO 4 STEP 100;
-
         CGELLGRID Y 0 DO 2 STEP 50;
-
-   }
+        }
 Figure 1 (a) illustrates the GCell definition along with the methodology for defining GCell coordinates.
 
 The output will be the GCell-based routing solution file. Here is an illustrative example of a global routing solution for a net (as depicted in Figure 1 (b)):
 
    Net0
-
-   {
-
+        {
          0 0 1 1 metal1
-
          0 0 1 3 metal2
-
          0 2 4 3 metal3
-
          3 2 4 4 metal2
-
          3 3 4 4 metal1
-
-   }
+        }
 
 The global routing solution is described in the GCell coordinate system. And the routing solution is defined on metal (routing) layers, from which via utilization can be inferred.
 In the above example, five wires are defined for Net0, each covers one or multiple contiguous GCells. And "0 2 4 3 Metal3" represents a wire cover GCells (0,2), (1,2), (2,2) and (3,2) on metal 3.
