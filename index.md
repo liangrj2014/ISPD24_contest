@@ -42,11 +42,8 @@ In the above example, five wires are defined for Net0, each covers one or multip
 The total wire length of this routing solution is calculated by summing up the wire length on all metal layers:
 
          WL_M1 = (50) + (100) = 150,
-
          WL_M2 = (25 + 100 + 50) + (50 + 50) = 275,
-
          WL_M3 = 50 + 200 + 200 + 100 = 550,
-
          Total_WL = WL_M1 + WL_M2 + WL_M3 = 975.
 
 This routing solution necessitates the use of four vias, comprising two vias transitioning from metal 1 to metal 2, and an additional two vias from metal 2 to metal 3.
