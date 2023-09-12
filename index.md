@@ -57,7 +57,7 @@ To be considered valid, a global routing solution for a net must ensure that all
 Figure 1 Example of GCell definition and global routing solution. (a) shows an example of GCell definition; (b) depicts a global routing solution.
 
 ### Anouncement
-- Registration opens on Sep 11, 2023!
+- Registration opens on Sep 13, 2023!
 - Released the first set of benchmarks on Sep 13, 2023
 - Released the docker for environment setup on Sep 13, 2023
 
