@@ -63,12 +63,12 @@ Figure 1 Example of GCell definition and global routing solution. (a) shows an e
 ### Registration
 
 - Please fill in this [online registration form](https://form.jotform.com/232454622032143)
-- Registration window: Sep 11, 2023 - Oct 15, 2023
+- Registration window: Sep 13, 2023 - Dec 15, 2023
 
 ### Important Dates
 
-- Registration Open: Sep 11, 2023
-- Registration Close: Oct 15, 2023
+- Registration Open: Sep 13, 2023
+- Registration Close: Dec 15, 2023
 - Alpha Submission: TBA
 - Beta Submission: TBA
 - Final Submission: TBA
