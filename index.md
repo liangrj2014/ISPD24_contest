@@ -13,7 +13,7 @@ Notably, contemporary VLSI circuits frequently encompass more than 50 million ce
 
 ### Input/Output Format
 
-The design and technology specifications are presented in the widely used standard LEF/DEF format. The DEF file also specifies dimensions and locations of GCells. A typical GCell dimension is $15\times 15$ M2 tracks. To successfully extract the relevant design and technology details, teams will be required to parse information from both the LEF and DEF files. For assistance in this process, a helpful starting point is the [LEF/DEF parser](https://si2.org/oa-tools-utils-libs/) here. 
+The design and technology specifications are presented in the widely used standard LEF/DEF format. The DEF file also specifies dimensions and locations of GCells. A typical GCell dimension is 15x15 M2 tracks. To successfully extract the relevant design and technology details, teams will be required to parse information from both the LEF and DEF files. For assistance in this process, a helpful starting point is the [LEF/DEF parser](https://si2.org/oa-tools-utils-libs/) here. 
 
 Here is an example of GCell definition:
 
