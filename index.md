@@ -28,6 +28,14 @@ Figure 1 (a) illustrates the GCell definition along with the methodology for def
 
 The output will be the GCell-based routing solution file. Here is an illustrative example of a global routing solution for a net (as depicted in Figure 1 (b)):
 
+        {   
+        0 0 1 1 metal1   
+        CGELLGRID X 100 DO 4 STEP 200;    
+        CGELLGRID X 0 DO 2 STEP 100;
+        CGELLGRID Y 50 DO 4 STEP 100;
+        CGELLGRID Y 0 DO 2 STEP 50;
+        }
+        
         Net0
         {
          0 0 1 1 metal1;
