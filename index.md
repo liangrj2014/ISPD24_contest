@@ -57,8 +57,8 @@ Figure 1 Example of GCell definition and global routing solution. (a) shows an e
 
 ### Anouncement
 - Registration opens on Sep 11, 2023!
-- Released the first set of benchmarks on Sep 11, 2023
-- Released the docker for environment setup on Sep 11, 2023
+- Released the first set of benchmarks on Sep 13, 2023
+- Released the docker for environment setup on Sep 13, 2023
 
 ### Registration
 
