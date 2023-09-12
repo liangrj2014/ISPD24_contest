@@ -29,11 +29,11 @@ Figure 1 (a) illustrates the GCell definition along with the methodology for def
 The output will be the GCell-based routing solution file. Here is an illustrative example of a global routing solution for a net (as depicted in Figure 1 (b)):
 
         {   
-        0 0 1 1 metal1   
-        0 0 1 3 metal2
-        0 2 4 3 metal3
-        3 2 4 4 metal2
-        3 3 4 4 metal1
+           0 0 1 1 metal1   
+           0 0 1 3 metal2
+           0 2 4 3 metal3
+           3 2 4 4 metal2
+           3 3 4 4 metal1
         }
 
 The global routing solution is described in the GCell coordinate system. And the routing solution is defined on metal (routing) layers, from which via utilization can be inferred.
