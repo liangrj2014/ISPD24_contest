@@ -57,6 +57,8 @@ To be considered valid, a global routing solution for a net must ensure that all
 Figure 1 Example of GCell definition and global routing solution. (a) shows an example of GCell definition; (b) depicts a global routing solution.
 
 ### Anouncement
+- We've released the evaluation scripts on Oct 28, 2023.
+- To simplify the entry process for the competition, we've extracted routing resource information and netlist data from LEF and DEF files and stored them in simplified formats. As a result, participants can tackle the contest challenge as an optimization problem within the GCell grid graph, which can be formally expressed mathematically. - Oct 28, 2023.
 - Registration opens on Sep 13, 2023!
 - Released the first set of benchmarks on Sep 13, 2023
 - Released the docker for environment setup on Sep 13, 2023
@@ -78,7 +80,7 @@ Figure 1 Example of GCell definition and global routing solution. (a) shows an e
 ### Downloads
 - [Introduction of the contest](https://drive.google.com/file/d/111_a2kObt3tcjj1IQFXMCNCpQwPyBlZs/view?usp=sharing)
 - [First set of benchmarks with Nangate45 technology node](https://drive.google.com/drive/folders/1afrsbeS_KuSeHEVfuQOuLWPuuZqlDVlw?usp=sharing) 
-Please note that all the essential input information for global routing is contained within the .cap files and .net files located in the "simple_input" folder. We also release the LEF/DEF files of the circuits just for reference.
+Please note that all the essential input information for global routing is contained within the .cap files and .net files located in the "Simple_inputs" folder. We also release the LEF/DEF files of the circuits just for reference.
 - [Evaluation Scripts](https://drive.google.com/drive/folders/1VTnIFtCa6X7cRRx9xBtPDu-kHPdnhCzL?usp=sharing)
 - Docker image for environment setup: nvcr.io/nvidian/research/ispd24:v0
   
