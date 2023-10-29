@@ -77,7 +77,8 @@ Figure 1 Example of GCell definition and global routing solution. (a) shows an e
 
 ### Downloads
 - [Introduction of the contest](https://drive.google.com/file/d/111_a2kObt3tcjj1IQFXMCNCpQwPyBlZs/view?usp=sharing)
-- [First set of benchmarks with Nangate45 technology node](https://drive.google.com/drive/folders/1afrsbeS_KuSeHEVfuQOuLWPuuZqlDVlw?usp=sharing)
+- [First set of benchmarks with Nangate45 technology node](https://drive.google.com/drive/folders/1afrsbeS_KuSeHEVfuQOuLWPuuZqlDVlw?usp=sharing) 
+Please note that all the essential input information for global routing is contained within the .cap files and .net files located in the "simple_input" folder. We also release the LEF/DEF files of the circuits just for reference.
 - [Evaluation Scripts](https://drive.google.com/drive/folders/1VTnIFtCa6X7cRRx9xBtPDu-kHPdnhCzL?usp=sharing)
 - Docker image for environment setup: nvcr.io/nvidian/research/ispd24:v0
   
