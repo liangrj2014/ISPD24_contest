@@ -58,7 +58,7 @@ Figure 1 Example of GCell definition and global routing solution. (a) shows an e
 
 ### Anouncement
 - We've released the evaluation scripts on Oct 28, 2023.
-- To simplify the entry process for the competition, we've extracted routing resource information and netlist data from LEF and DEF files and stored them in simplified formats. As a result, participants can tackle the contest challenge as an optimization problem within the GCell grid graph, which can be formally expressed mathematically. - Oct 28, 2023.
+- To simplify the entry process for the competition, we've extracted routing resource information and netlist data from LEF and DEF files and stored them in simplified formats. As a result, participants can tackle the contest challenge as a mathematic optimization problem within the GCell grid graph. - Oct 28, 2023.
 - Registration opens on Sep 13, 2023!
 - Released the first set of benchmarks on Sep 13, 2023
 - Released the docker for environment setup on Sep 13, 2023
