@@ -12,6 +12,7 @@ The goal of the contest is to spur academic research for developing GPU/ML-enhan
 Notably, contemporary VLSI circuits frequently encompass more than 50 million cells, in stark contrast to prior global routing competitions which have traditionally concentrated on scenarios involving no more than 1 million cells. By igniting interest and innovation within the global routing research community, this competition aspires to yield substantial reductions in global routing runtime for these expansive industrial-grade circuits, leveraging the computational prowess of GPUs and the potential of machine learning techniques. Concomitantly, it endeavors to elevate the overall quality of routing outcomes.
 
 ### Anouncement
+- We've released example global routing solutions on Oct 28, 2023.
 - We've released the evaluation scripts on Oct 28, 2023.
 - To simplify the entry process for the competition, we've extracted routing resource information and netlist data from LEF and DEF files and stored them in simplified formats. As a result, participants can tackle the contest challenge as a mathematic optimization problem within the GCell grid graph. - Oct 28, 2023.
 - Registration opens on Sep 13, 2023!
@@ -37,6 +38,7 @@ Notably, contemporary VLSI circuits frequently encompass more than 50 million ce
 - [First set of benchmarks with Nangate45 technology node](https://drive.google.com/drive/folders/1afrsbeS_KuSeHEVfuQOuLWPuuZqlDVlw?usp=sharing) 
 Please note that all the essential input information for global routing is contained within the .cap files and .net files located in the "Simple_inputs" folder. We also release the LEF/DEF files of the circuits just for reference.
 - [Evaluation Scripts](https://drive.google.com/drive/folders/1VTnIFtCa6X7cRRx9xBtPDu-kHPdnhCzL?usp=sharing)
+- [Example global routing solutions](https://drive.google.com/drive/folders/1901Cn31zsq1bNs8lrHBC_CUwEF0eUk8Z?usp=drive_link)
 - Docker image for environment setup: nvcr.io/nvidian/research/ispd24:v0
   
 ### Q&A
