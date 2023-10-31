@@ -39,7 +39,7 @@ Notably, contemporary VLSI circuits frequently encompass more than 50 million ce
 Please note that all the essential input information for global routing is contained within the .cap files and .net files located in the "Simple_inputs" folder. We also release the LEF/DEF files of the circuits just for reference.
 - [Evaluation Scripts](https://drive.google.com/drive/folders/1VTnIFtCa6X7cRRx9xBtPDu-kHPdnhCzL?usp=sharing)
 - [Example global routing solutions](https://drive.google.com/drive/folders/1901Cn31zsq1bNs8lrHBC_CUwEF0eUk8Z?usp=drive_link)
-- Docker for environment setup: nvcr.io/nvidian/pytorch-dgl.ai:21.11
+- [Dockerfile for environment setup](https://github.com/liangrj2014/ISPD24_contest/blob/main/Dockerfile)
   
 ### Q&A
 
