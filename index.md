@@ -4,12 +4,13 @@
 
 ### Contest Introduction
 
-Global routing plays a pivotal role in the VLSI design flow as it significantly impacts the timing, power, and routability of a circuit. Moreover, the efficiency of global routing is of great importance, since faster global routing can significantly enhance both the runtime and the quality of routability-driven placement algorithms.
+Global routing is a critical component of the VLSI design process, exerting a substantial influence on circuit timing, power consumption, and overall routability. The efficiency of global routing is of paramount importance, as a swift and scalable approach can guide optimizations in early design stages like floor-planning and placement.
 
 Over the past decade, GPU accelerated computing platforms have been evolving into highly versatile and programmable systems capable of delivering immense parallel computing power. Recent studies have successfully leveraged GPUs to achieve over a 10x acceleration in global routing without compromising performance. Furthermore, machine learning (ML) techniques have been integrated into the global routing process, leading to enhanced routing solution quality.
 
-The goal of the contest is to spur academic research for developing GPU/ML-enhanced global router for industrial-level circuits. 
-Notably, contemporary VLSI circuits frequently encompass more than 50 million cells, in stark contrast to prior global routing competitions which have traditionally concentrated on scenarios involving no more than 1 million cells. By igniting interest and innovation within the global routing research community, this competition aspires to yield substantial reductions in global routing runtime for these expansive industrial-grade circuits, leveraging the computational prowess of GPUs and the potential of machine learning techniques. Concomitantly, it endeavors to elevate the overall quality of routing outcomes.
+The goal of this competition is to stimulate academic research aimed at developing a GPU/ML-enhanced global router tailored for industrial-level circuits. Notably, contemporary VLSI circuits often encompass tens of millions of cells, which is a significant departure from past global routing competitions that typically dealt with scenarios involving no more than 1 million cells. Due to the limitations of current routers, hierarchical or partitioning-based methods are commonly employed to manage large circuits, albeit at the risk of sacrificing a certain degree of optimality.
+It is of great importance to develop a scalable global router capable of handling circuits with tens of millions of cells, as it can greatly inform optimizations in the early design stages, such as floor-planning and placement. By fostering enthusiasm and innovation within the global routing research community, this competition aims to deliver substantial reductions in global routing runtime for these expansive industrial-grade circuits, harnessing the computational power of GPUs and the potential of machine learning techniques. Simultaneously, it strives to enhance the overall quality of routing results.
+
 
 ### Anouncement
 - We've released example global routing solutions on Oct 28, 2023.
