@@ -55,6 +55,11 @@ Please note that all the essential input information for global routing is conta
 
 - Email：ispd2024contest@gmail.com
 
+### Contest Prizes
+- 1st place: $1000 + one NVIDIA GPU of similar value
+- 2nd place: $500 + one NVIDIA GPU of similar value
+- 3rd place: $250 + one NVIDIA GPU of similar value
+
 ### Sponsor
  - Sponsored by NVIDIA
    
