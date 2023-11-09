@@ -17,6 +17,10 @@ To enable teams from diverse backgrounds to participate, we have extracted routi
 
 Please check [Introduction of the contest](https://drive.google.com/file/d/11wSwOaLQ0ZMEq2Znb3gjCAtLhNn1DV1w/view?usp=sharing) for more details. 
 
+### Submission Guidance
+
+We expect teams to package their global routers into Docker images. And we will pull and execute these images on a NVIDIA platform equiped with 4 NVIDIA A100 GPUs. 
+
 ### Anouncement
 - We've released example global routing solutions on Oct 28, 2023.
 - We've released the evaluation scripts on Oct 28, 2023.
@@ -34,9 +38,9 @@ Please check [Introduction of the contest](https://drive.google.com/file/d/11wSw
 
 - Registration Open: Sep 13, 2023
 - Registration Close: Dec 1, 2023
-- Alpha Submission: TBA
-- Beta Submission: TBA
-- Final Submission: TBA
+- Alpha Submission: Jan 5, 2024
+- Beta Submission: Feb, 2, 2024
+- Final Submission: Mar, 1, 2024
 - Results Anouncement: March 13, 2024
 
 ### Downloads
