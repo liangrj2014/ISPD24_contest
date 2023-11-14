@@ -41,7 +41,7 @@ We expect teams to package their global routers into Docker images. And we will 
 - Alpha Submission: Jan 5, 2024
 - Beta Submission: Feb, 2, 2024
 - Final Submission: Mar, 1, 2024
-- Results Anouncement: March 13, 2024
+- Results Anouncement: March 15, 2024
 
 ### Downloads
 - [Introduction of the contest](https://drive.google.com/file/d/11wSwOaLQ0ZMEq2Znb3gjCAtLhNn1DV1w/view?usp=sharing)
