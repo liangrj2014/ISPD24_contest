@@ -34,28 +34,28 @@ We expect teams to package their global routers into Docker images. And we will 
 - Please fill in this [online registration form](https://form.jotform.com/232454622032143)
 - Registration window: Sep 13, 2023 - Dec 1, 2023
 
-- We confirm that we've received the registrations form from the following teams. 
+- We confirm that we've received the registrations form from the following teams. Please feel free to send us an email if we overlooked your registration forms or any related information.
   
-  |  ID   | Team Name  |
-  |  ----  | ----  |
-  | 1  | Mamta |
-  | 2  | NianNianYouYu |
-  | 3  | Binghamton |
-  | 4  | NTHU-TCLAB-GR |
-  | 5  | Alpha-Team |
-  | 6  | HumbleRoute |
-  | 7  | automl-for-global-routing |
-  | 8  | Lira |
-  | 9  | SCAW |
-  | 10  | TeamSD |
-  | 11  | NTUSTGR |
-  | 12  | SmartRoute |
-  | 13  | metaRoute |
-  | 14  | IWantNvidia |
-  | 15  | GRFirExp |
-  | 16  | DIAG |
-  | 17  | Santhosh |
-  | 18  | VCISEDA |
+  |  ID   | Team Name  | Affiliation |
+  |  ----  | ----  | ----  |
+  | 1  | Mamta | Unknown |
+  | 2  | NianNianYouYu | Fudan University |
+  | 3  | Binghamton | Binghamton University |
+  | 4  | NTHU-TCLAB-GR | Unknown |
+  | 5  | Alpha-Team | AlphaCHIP LLC; National Research University of Electronic Technology |
+  | 6  | HumbleRoute | University of South Florida; CMR Institute of Technology |
+  | 7  | automl-for-global-routing | Texas A&M University |
+  | 8  | Lira | Unknown |
+  | 9  | SCAW | Sun Yat-sen University |
+  | 10  | TeamSD | Unknown |
+  | 11  | NTUSTGR | National Taiwan University of Science and Technology |
+  | 12  | SmartRoute | University of Science and Technology of China |
+  | 13  | metaRoute | Fudan University |
+  | 14  | IWantNvidia | Unknown |
+  | 15  | GRFirExp | University of Science and Technology of China |
+  | 16  | DIAG | University of Science and Technology of China |
+  | 17  | Santhosh | Unknown |
+  | 18  | VCISEDA | Beijing University of Posts and Telecommunications |
 
 ### Important Dates
 
