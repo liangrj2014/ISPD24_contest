@@ -46,7 +46,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 6  | HumbleRoute | University of South Florida; CMR Institute of Technology |
   | 7  | automl-for-global-routing | Texas A&M University |
   | 8  | Lira | Unknown |
-  | 9  | SCAW | Sun Yat-sen University |
+  | 9  | SCAW | Sun Yat-sen University; Institute of Computing, Chinese Academy of Sciences |
   | 10  | TeamSD | Unknown |
   | 11  | NTUSTGR | National Taiwan University of Science and Technology |
   | 12  | SmartRoute | University of Science and Technology of China |
