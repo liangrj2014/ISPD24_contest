@@ -34,6 +34,13 @@ We expect teams to package their global routers into Docker images. And we will 
 - Please fill in this [online registration form](https://form.jotform.com/232454622032143)
 - Registration window: Sep 13, 2023 - Dec 1, 2023
 
+  We confirm that we've received the registration form for the following teams.
+  
+  |  ID   | Team Name  |
+  |  ----  | ----  |
+  | 1  | Mamta |
+  | 2  | NianNianYouYu |
+
 ### Important Dates
 
 - Registration Open: Sep 13, 2023
