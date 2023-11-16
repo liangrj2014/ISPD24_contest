@@ -34,12 +34,28 @@ We expect teams to package their global routers into Docker images. And we will 
 - Please fill in this [online registration form](https://form.jotform.com/232454622032143)
 - Registration window: Sep 13, 2023 - Dec 1, 2023
 
-  We confirm that we've received the registration form for the following teams.
+- We confirm that we've received the registrations form from the following teams. 
   
   |  ID   | Team Name  |
   |  ----  | ----  |
   | 1  | Mamta |
   | 2  | NianNianYouYu |
+  | 3  | Binghamton |
+  | 4  | NTHU-TCLAB-GR |
+  | 5  | Alpha-Team |
+  | 6  | HumbleRoute |
+  | 7  | automl-for-global-routing |
+  | 8  | Lira |
+  | 9  | SCAW |
+  | 10  | TeamSD |
+  | 11  | NTUSTGR |
+  | 12  | SmartRoute |
+  | 13  | metaRoute |
+  | 14  | IWantNvidia |
+  | 15  | GRFirExp |
+  | 16  | DIAG |
+  | 17  | Santhosh |
+  | 18  | VCISEDA |
 
 ### Important Dates
 
