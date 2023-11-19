@@ -57,6 +57,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 17  | Santhosh | Unknown |
   | 18  | VCISEDA | Beijing University of Posts and Telecommunications |
   | 19  | Puipui | Nara Institute of Science and Technology |
+  | 20  | Team-XJWIN | Xi'an Jiaotong University |
 
 ### Important Dates
 
