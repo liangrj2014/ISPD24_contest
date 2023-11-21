@@ -59,6 +59,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 19  | Puipui | Nara Institute of Science and Technology |
   | 20  | Team-XJWIN | Xi'an Jiaotong University |
   | 21  | Route 99 | Tsinghua University, University of Science and Technology Beijing |
+  | 22  | Team California | University of California , Santa Cruz |
 
 ### Important Dates
 
