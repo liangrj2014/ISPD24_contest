@@ -62,6 +62,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 22  | Team California | University of California , Santa Cruz |
   | 24  | AnxietyAttack | University of Peradeniya |
   | 25  | fzu _team | Unknown |
+  | 26  | Jack's team | Unknown |
 
 ### Important Dates
 
