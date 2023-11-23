@@ -63,6 +63,10 @@ We expect teams to package their global routers into Docker images. And we will 
   | 24  | AnxietyAttack | University of Peradeniya |
   | 25  | fzu _team | Unknown |
   | 26  | Jack's team | Unknown |
+  | 27  | iEDA-iRT | Institute of Computing Technology, Chinese Academy of Sciences, Shenzhen University, Peng Cheng Laboratory |
+  | 28  | GGRouter | Pohang University of Science and Technology |
+  | 29  | NTUEE+ | National Taiwan University |
+  | 30  | color | Chinese University of Hong Kong |
 
 ### Important Dates
 
