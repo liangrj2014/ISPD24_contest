@@ -41,7 +41,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 1  | Mamta | Unknown |
   | 2  | NianNianYouYu | Fudan University |
   | 3  | Binghamton | Binghamton University |
-  | 4  | NTHU-TCLAB-GR | Unknown |
+  | 4  | NTHU-TCLAB-GR | National Tsing Hua University |
   | 5  | Alpha-Team | AlphaCHIP LLC; National Research University of Electronic Technology |
   | 6  | HumbleRoute | University of South Florida; CMR Institute of Technology |
   | 7  | automl-for-global-routing | Texas A&M University |
@@ -67,7 +67,8 @@ We expect teams to package their global routers into Docker images. And we will 
   | 28  | GGRouter | Pohang University of Science and Technology |
   | 29  | NTUEE+ | National Taiwan University |
   | 30  | color | Chinese University of Hong Kong |
-
+  | 31  | NNU_FZUTeam | Nanjing Normal University |
+  
 ### Important Dates
 
 - Registration Open: Sep 13, 2023
