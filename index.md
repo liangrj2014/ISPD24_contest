@@ -58,16 +58,16 @@ We expect teams to package their global routers into Docker images. And we will 
   | 18  | VCISEDA | Beijing University of Posts and Telecommunications |
   | 19  | Puipui | Nara Institute of Science and Technology |
   | 20  | Team-XJWIN | Xi'an Jiaotong University |
-  | 21  | Route 99 | Tsinghua University, University of Science and Technology Beijing |
+  | 21  | Route 99 | Tsinghua University; University of Science and Technology Beijing |
   | 22  | Team California | University of California , Santa Cruz |
   | 24  | AnxietyAttack | University of Peradeniya |
   | 25  | fzu _team | Unknown |
   | 26  | Jack's team | Unknown |
-  | 27  | iEDA-iRT | Institute of Computing Technology, Chinese Academy of Sciences, Shenzhen University, Peng Cheng Laboratory |
+  | 27  | iEDA-iRT | Institute of Computing Technology; Chinese Academy of Sciences; Shenzhen University; Peng Cheng Laboratory |
   | 28  | GGRouter | Pohang University of Science and Technology |
   | 29  | NTUEE+ | National Taiwan University |
   | 30  | color | Chinese University of Hong Kong |
-  | 31  | NNU_FZUTeam | Nanjing Normal University |
+  | 31  | NNU_FZUTeam | Nanjing Normal University; FUZHOU University |
   
 ### Important Dates
 
