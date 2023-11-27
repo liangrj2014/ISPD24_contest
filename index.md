@@ -67,7 +67,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 28  | GGRouter | Pohang University of Science and Technology |
   | 29  | NTUEE+ | National Taiwan University |
   | 30  | color | Chinese University of Hong Kong |
-  | 31  | NNU_FZUTeam | Nanjing Normal University; FUZHOU University |
+  | 31  | NNU_FZUTeam | Nanjing Normal University; Fuzhou University |
   | 32  | NYCU_GR | Unknown |
   
 ### Important Dates
