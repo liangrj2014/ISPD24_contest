@@ -69,6 +69,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 30  | color | Chinese University of Hong Kong |
   | 31  | NNU_FZUTeam | Nanjing Normal University; Fuzhou University |
   | 32  | NYCU_GR | Unknown |
+  | 33  | NTUEDA | National Taiwan University |
   
 ### Important Dates
 
