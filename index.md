@@ -70,6 +70,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 31  | NNU_FZUTeam | Nanjing Normal University; Fuzhou University |
   | 32  | NYCU_GR | Unknown |
   | 33  | NTUEDA | National Taiwan University |
+  | 34  | FZU_MathGR | Fuzhou University |
   
 ### Important Dates
 
