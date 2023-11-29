@@ -71,6 +71,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 32  | NYCU_GR | Unknown |
   | 33  | NTUEDA | National Taiwan University |
   | 34  | FZU_MathGR | Fuzhou University |
+  | 35  | RL-Route | The Chinese University of Hong Kong |
   
 ### Important Dates
 
