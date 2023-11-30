@@ -84,7 +84,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 45  | Easy_Router | Unknown |
   | 46  | etuoReL | Fudan University |
   | 47  | PY-Router | Unknown |
-  | 48  | PampaRouting | UFRGS |
+  | 48  | PampaRouting | Universidade Federal do Rio Grande do Sul |
   
 ### Important Dates
 
