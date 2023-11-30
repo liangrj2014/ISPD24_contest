@@ -74,6 +74,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 35  | RL-Route | The Chinese University of Hong Kong |
   | 36  | HustForest | Huazhong University of Science and Technology |
   | 37  | ZJ | Unknown |
+  | 38  | Marvin | Indian Institute of Technology Madras |
   
 ### Important Dates
 
