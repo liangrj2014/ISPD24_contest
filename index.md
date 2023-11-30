@@ -75,6 +75,15 @@ We expect teams to package their global routers into Docker images. And we will 
   | 36  | HustForest | Huazhong University of Science and Technology |
   | 37  | ZJ | Unknown |
   | 38  | Marvin | Indian Institute of Technology Madras |
+  | 39  | Tiger | Unknown |
+  | 40  | NJUFZUglobalrouter | Nanjing Normal University |
+  | 41  | GoToRoute | Fuzhou University |
+  | 42  | NYCU-VDA-GR | National Yang Ming Chiao Tung University |
+  | 43  | Kate | Scientific research institute for system analysis of Russian Academy of Sciences |
+  | 44  | SEU-Router | Southeast University |
+  | 45  | Easy_Router | Unknown |
+  | 46  | etuoReL | Fudan University |
+  | 47  | PY-Router | Unknown |
   
 ### Important Dates
 
