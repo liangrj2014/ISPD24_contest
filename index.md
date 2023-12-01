@@ -22,6 +22,7 @@ Please check [Introduction of the contest](https://drive.google.com/file/d/11wSw
 We expect teams to package their global routers into Docker images. And we will pull and execute these images on a NVIDIA platform equiped with 4 NVIDIA A100 GPUs. 
 
 ### Anouncement
+- We've identified some bugs in our evaluation script (thanks to the participants for bringing them to our attention!). An updated version will be released shortly, addressing these bugs and significantly improving runtime speed. Stay tuned for the latest updates!
 - We've released example global routing solutions on Oct 28, 2023.
 - We've released the evaluation scripts on Oct 28, 2023.
 - To simplify the entry process for the competition, we've extracted routing resource information and netlist data from LEF and DEF files and stored them in simplified formats. As a result, participants can tackle the contest challenge as a mathematic optimization problem within the GCell grid graph. - Oct 28, 2023.
