@@ -89,6 +89,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 49  | Team Ondru | Indian Institute of Technology Madras |
   | 50  | XianBaoMing | National Tsing Hua University |
   | 51  | EA | University of Calgary |
+  | 52  | CUEDA | The Chinese University of Hong Kong |
   
 ### Important Dates
 
