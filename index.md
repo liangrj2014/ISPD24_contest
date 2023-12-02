@@ -88,6 +88,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 48  | PampaRouting | Universidade Federal do Rio Grande do Sul |
   | 49  | Team Ondru | Indian Institute of Technology Madras |
   | 50  | XianBaoMing | National Tsing Hua University |
+  | 51  | EA | University of Calgary |
   
 ### Important Dates
 
