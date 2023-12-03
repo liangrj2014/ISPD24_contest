@@ -1,5 +1,5 @@
-ROM nvcr.io/nvidia/pytorch:21.10-py3
-MAINTAINER <haoxingr@nvidia.com>
+FROM nvcr.io/nvidia/pytorch:22.05-py3
+MAINTAINER <rliang@nvidia.com>
 
 ARG ssh_prv_key
 ARG ssh_pub_key
@@ -13,21 +13,20 @@ RUN mkdir /root/.ssh && \
     chmod 600 /root/.ssh/id_ed25519.pub && \
     ssh-keyscan -t rsa github.com >> /root/.ssh/known_hosts
 
-RUN git clone --recursive git@github.com:nvlabs/AutoDMP /AutoDMP
-
 RUN rm /root/.ssh/id_ed25519 && \
     rm /root/.ssh/id_ed25519.pub
 
 # update torch
-RUN pip install --upgrade pip 
-RUN pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio===0.10.0+cu113  -f https://download.pytorch.org/whl/cu113/torch_stable.html
+RUN pip install --upgrade pip
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
         && apt-get install -y \
             wget \
             flex \
-            libcairo2-dev 
+            libcairo2-dev
+
+RUN pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio===0.13.1+cu117  -f https://download.pytorch.org/whl/cu117/torch_stable.html
 
 RUN wget -O boost_1_66_0.tar.gz https://boostorg.jfrog.io/artifactory/main/release/1.66.0/source/boost_1_66_0.tar.gz && \
     tar xvf boost_1_66_0.tar.gz && \
@@ -63,4 +62,9 @@ RUN pip install \
         Pyro4>=4.82 \
         ConfigSpace>=0.6.0 \
         statsmodels>=0.13.2 \
-        xgboost>=1.5.1 
+        xgboost>=1.5.1
+
+# install dgl
+RUN pip install  dgl -f https://data.dgl.ai/wheels/cu117/repo.html
+RUN pip install  dglgo -f https://data.dgl.ai/wheels-test/repo.html
+
