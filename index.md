@@ -91,6 +91,7 @@ We expect teams to package their global routers into Docker images. And we will 
   | 50  | XianBaoMing | National Tsing Hua University |
   | 51  | EA | University of Calgary |
   | 52  | CUEDA | The Chinese University of Hong Kong |
+  | 53  | Team Hippo | Peking University |
   
 ### Important Dates
 
