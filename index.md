@@ -22,6 +22,7 @@ Please check [Introduction of the contest](https://drive.google.com/file/d/11wSw
 We expect teams to package their global routers into Docker images. And we will pull and execute these images on a NVIDIA platform equiped with 4 NVIDIA A100 GPUs. 
 
 ### Anouncement
+- We released the updated version of evaluation script. - Jan 2, 2024.
 - The evaluation platform is configured with CUDA version 11.7 and driver version 515.00. We have prepared a Dockerfile (https://github.com/liangrj2014/ISPD24_contest/blob/main/Dockerfile) that will install deep learning toolkits compatible with the CUDA version on our evaluation platform. Generally, participants are welcome to modify the Dockerfile as necessary, ensuring compatibility with our evaluation platform for utilizing the GPUs on the system. - Dec 02, 2023.
 - We've identified some bugs in our evaluation script (thanks to the participants for bringing them to our attention!). An updated version will be released shortly, addressing these bugs and significantly improving runtime speed. Stay tuned for the latest updates! - Nov 30, 2023.
 - We've released example global routing solutions on Oct 28, 2023.
@@ -97,7 +98,7 @@ We expect teams to package their global routers into Docker images. And we will 
 
 - ~~Registration Open: Sep 13, 2023~~
 - ~~Registration Close: Dec 1, 2023~~
-- Alpha Submission: Jan 5, 2024
+- Alpha Submission: ~~Jan 5, 2024~~ Jan 12, 2024
 - Beta Submission: Feb, 2, 2024
 - Final Submission: Mar, 1, 2024
 - Results Anouncement: March 15, 2024
