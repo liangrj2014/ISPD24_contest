@@ -22,6 +22,7 @@ Please check [Introduction of the contest](https://drive.google.com/file/d/11wSw
 We expect teams to package their global routers into Docker images. And we will pull and execute these images on a NVIDIA platform equiped with 4 NVIDIA A100 GPUs. 
 
 ### Anouncement
+- We updated the benchmark input files. And a new design ("cluister") with around 10 million cells is released. - Jan 4, 2024
 - We postponed the alpha submission date to Jan 12, 2024. - Jan 2, 2024.
 - We updated the global routing solution format and evaluation metrics. Please kinldy check the updated [Introduction of the contest](https://drive.google.com/file/d/1YiDORsgiImMg6vIO6EfwFj4VNg8Hb5k3/view?usp=sharing). - Jan 2, 2024.
 - We released the updated version of evaluation script. - Jan 2, 2024.
