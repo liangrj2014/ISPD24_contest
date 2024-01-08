@@ -19,7 +19,10 @@ Please check [Introduction of the contest](https://drive.google.com/file/d/11wSw
 
 ### Submission Guidance
 
-We expect teams to package their global routers into Docker images. And we will pull and execute these images on a NVIDIA platform equiped with 4 NVIDIA A100 GPUs. 
+
+Teams are required to build a Docker image based on the provided [Dockerfile](https://github.com/liangrj2014/ISPD24_contest/blob/main/Dockerfile). Within the Docker environment, please create a directory named "router" under the "/workspace" folder and place the global router binary/scripts in this directory (/workspace/router). The updated Docker images should be uploaded by the teams. During the evaluation process, these images will be pulled and executed on a NVIDIA platform equipped with 4 NVIDIA A100 GPUs. Specifically, we will mount a "benchmarks" folder (containing the input files) to /workspace/benchmarks and an "evaluation" folder (containing the evaluation scripts) to /workspace/evaluation. The evaluation.sh script will be executed to run the submitted global router and evaluate the generated solutions.
+
+
 
 ### Anouncement
 - We updated the benchmark input files. And a new design ("cluister") with around 10 million cells is released. - Jan 4, 2024
