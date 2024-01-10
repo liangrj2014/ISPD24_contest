@@ -26,6 +26,7 @@ Teams are required to build a Docker image on top of the provided [Dockerfile](h
 
 During the evaluation process, the Docker images will be pulled and executed on a NVIDIA platform equipped with 4 NVIDIA A100 GPUs. Specifically, we will mount a "benchmarks" folder (containing the input files) to /workspace/benchmarks and an "evaluation" folder (containing the evaluation scripts) to /workspace/evaluation. The [evaluation.sh](https://drive.google.com/file/d/1V_5WSwkD8uk_IJw07m0vjWyCROsK4vfj/view?usp=sharing) script will be executed to run the submitted global router and evaluate the generated solutions.
 
+Please kindly archive your Docker image to a tar file (refer to https://docs.docker.com/engine/reference/commandline/save/). Subsequently, upload the tar archive to Google Drive and share the link with us. Please grant access to the Docker image for anyone with the link. The global router binary/scripts are expected to be stored in /workspace/router within the Docker image. Therefore, there is no need to upload the global router binary/scripts separately. If you have any questions regarding this, please feel free to ask. Thank you!
 
 
 ### Anouncement
