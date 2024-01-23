@@ -30,7 +30,7 @@ Please kindly archive your Docker image to a tar file (refer to https://docs.doc
 ### Leader Board
 
 
-  |  Affiliation |
+  |  Design | ariane133_68 |   |
   |  ----  | ----  | ----  |
   | 1  | Mamta | Unknown |
   | 2  | NianNianYouYu | Fudan University |
