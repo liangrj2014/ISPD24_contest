@@ -29,11 +29,13 @@ Please kindly archive your Docker image to a tar file (refer to https://docs.doc
 
 ### Leader Board
 
+  - On pubic benchmarks
 
-  |  Design | ariane133_68 |   |
-  |  ----  | ----  | ----  |
-  | 1  | Mamta | Unknown |
-  | 2  | NianNianYouYu | Fudan University |
+  |  ariane133_68 | runtime | WL cost | via cost| overflow cost | raw score | scaled score |
+  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |
+  | 1 | 1	| 9291786 |	3782960	| 234312 | 24790346	| 22657226.44 |
+  | 2  | 14	| 9415318	| 3310796	| 203387 |	22895464	| 22668815.33 |
+
 
 
 
