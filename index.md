@@ -29,15 +29,16 @@ Please kindly archive your Docker image to a tar file (refer to https://docs.doc
 
 ### Leader Board
 
-  - On pubic benchmarks
+  - Best scores on pubic benchmarks
 
-  |  ariane133_68 | runtime | WL cost | via cost| overflow cost | raw score | scaled score |
+  |  design | runtime | WL cost | via cost| overflow cost | raw score | scaled score |
   |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |
-  | 1 | 1	| 9291786 |	3782960	| 234312 | 24790346	| 22657226.44 |
-  | 2  | 14	| 9415318	| 3310796	| 203387 |	22895464	| 22668815.33 |
-
-
-
+  | ariane133_51 | 1	| 9291786 |	3782960	| 234312 * 50 | 24790346	| 22657226.44 |
+  | ariane133_68 | 17	| 9686002	| 3226556	| 148414 * 50 	| 20333258	| 20177210.57 |
+  | bsg | 60	| 58885159	| 25117336	| 695527 * 50 	| 118778845	| 115495308.1 |
+  | tile | 14	| 8587797	| 3739956	| 67566 * 50 	| 15706053	| 15634348.9 |
+  | group | 362	| 271521737 |	94674144	| 1778913 * 50 	| 455141531	| 426592090.7 |
+  | cluster | 5649	| 1114614787	| 278446560	| 9097333 * 50 	| 1847927997	| 1836145276 |
 
 ### Anouncement
 - We updated the submission guidance. -Jan 8, 2024
