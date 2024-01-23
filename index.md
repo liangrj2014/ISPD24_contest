@@ -41,6 +41,7 @@ Please kindly archive your Docker image to a tar file (refer to https://docs.doc
   | cluster | 5649	| 1114614787	| 278446560	| 9097333 * 50 	| 1847927997	| 1836145276 |
 
 ### Anouncement
+_ We evaluated the alpha submissioms on public benchmarks and created the leader board. - Jan 22, 2024
 - We updated the submission guidance. -Jan 8, 2024
 - We updated the benchmark input files. And a new design ("cluister") with around 10 million cells is released. - Jan 4, 2024
 - We postponed the alpha submission date to Jan 12, 2024. - Jan 2, 2024.
