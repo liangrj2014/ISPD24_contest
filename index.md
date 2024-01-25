@@ -29,16 +29,16 @@ Please kindly archive your Docker image to a tar file (refer to https://docs.doc
 
 ### Leaderboard
 
-  - Best scores on pubic benchmarks (alpha submission)
+  - Best scores on pubic benchmarks (alpha submission, updated on Jan 25, 2024)
 
   |  design | runtime | WL cost | via cost| overflow cost | raw score | scaled score |
   |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |
-  | ariane133_51 | 1	| 9291786 |	3782960	| 234312 * 50 | 24790346	| 22657226.44 |
-  | ariane133_68 | 17	| 9686002	| 3226556	| 148414 * 50 	| 20333258	| 20177210.57 |
-  | bsg | 60	| 58885159	| 25117336	| 695527 * 50 	| 118778845	| 115495308.1 |
-  | tile | 14	| 8587797	| 3739956	| 67566 * 50 	| 15706053	| 15634348.9 |
-  | group | 362	| 271521737 |	94674144	| 1778913 * 50 	| 455141531	| 426592090.7 |
-  | cluster | 5649	| 1114614787	| 278446560	| 9097333 * 50 	| 1847927997	| 1836145276 |
+  | ariane133_51 | 12	| 9285586|	2956924	| 209162 * 50 | 22700610	| 22599641.13 |
+  | ariane133_68 | 13	| 9435932	| 2883456| 158823 * 50 	| 20260538	| 20176881.88 |
+  | bsg | 120	| 58702634	| 20208976	| 728858 * 50 	| 115354510	| 115495308.1 |
+  | tile | 12	| 8484366	| 3501412	| 70477 * 50 	| 15509628	| 15548566.75 |
+  | group | 362	| 271521737 |	94674144	| 1778913 * 50 	| 455141531	| 448353488.1 |
+  | cluster | 14327| 1103106843	| 285442676	| 5801104 * 50 	| 1678604719	| 1752964443 |
 
 ### Anouncement
 - We evaluated the alpha submissioms on public benchmarks and created the leader board. - Jan 22, 2024
