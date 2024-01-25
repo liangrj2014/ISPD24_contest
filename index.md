@@ -27,9 +27,9 @@ During the evaluation process, the Docker images will be pulled and executed on 
 
 Please kindly archive your Docker image to a tar file (refer to https://docs.docker.com/engine/reference/commandline/save/). Subsequently, upload the tar archive to Google Drive and share the link with us. Please grant access to the Docker image for anyone with the link. The global router binary/scripts are expected to be stored in /workspace/router within the Docker image. Therefore, there is no need to upload the global router binary/scripts separately. If you have any questions regarding this, please feel free to ask. Thank you!
 
-### Leader Board
+### Leaderboard
 
-  - Best scores on pubic benchmarks
+  - Best scores on pubic benchmarks (alpha submission)
 
   |  design | runtime | WL cost | via cost| overflow cost | raw score | scaled score |
   |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |
@@ -41,7 +41,7 @@ Please kindly archive your Docker image to a tar file (refer to https://docs.doc
   | cluster | 5649	| 1114614787	| 278446560	| 9097333 * 50 	| 1847927997	| 1836145276 |
 
 ### Anouncement
-_ We evaluated the alpha submissioms on public benchmarks and created the leader board. - Jan 22, 2024
+- We evaluated the alpha submissioms on public benchmarks and created the leader board. - Jan 22, 2024
 - We updated the submission guidance. -Jan 8, 2024
 - We updated the benchmark input files. And a new design ("cluister") with around 10 million cells is released. - Jan 4, 2024
 - We postponed the alpha submission date to Jan 12, 2024. - Jan 2, 2024.
