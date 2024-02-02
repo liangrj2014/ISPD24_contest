@@ -29,7 +29,8 @@ Please kindly archive your Docker image to a tar file (refer to https://docs.doc
 
 Routing resource limit:
 - RAM: 200 GB
-- #Cores: 8 cores
+- CPU Cores: 8 cores
+- GPUs: 4 NVIDIA A100 GPUs
   
   |  design | runtime limit/s |
   |  ----  | ----  |
