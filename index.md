@@ -39,7 +39,7 @@ Evaluation resource limit:
   | BlackParrot | 300	|
   | MemPool-Tile | 30	|
   | MemPool-Group | 500 |
-  | MemPool-Cluster | 15000 |
+  | MemPool-Cluster | 10000 |
   | TersPool-Cluster | 50000 |
   
 
