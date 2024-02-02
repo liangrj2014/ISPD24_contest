@@ -27,7 +27,7 @@ During the evaluation process, the Docker images will be pulled and executed on 
 
 Please kindly archive your Docker image to a tar file (refer to https://docs.docker.com/engine/reference/commandline/save/). Subsequently, upload the tar archive to Google Drive and share the link with us. Please grant access to the Docker image for anyone with the link. The global router binary/scripts are expected to be stored in /workspace/router within the Docker image. Therefore, there is no need to upload the global router binary/scripts separately. If you have any questions regarding this, please feel free to ask. Thank you!
 
-Evaluation sever specifications:
+Evaluation resource limit:
 - RAM: 200 GB
 - #Cores: 8 cores
   
