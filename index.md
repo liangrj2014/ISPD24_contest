@@ -40,7 +40,7 @@ Evaluation resource limit:
   | MemPool-Tile | 30	|
   | MemPool-Group | 500 |
   | MemPool-Cluster | 10000 |
-  | TersPool-Cluster | 50000 |
+  | TeraPool-Cluster | 50000 |
   
 
 ### Leaderboard
@@ -54,7 +54,7 @@ Evaluation resource limit:
   | BlackParrot | 120	| 58702634	| 20208976	| 728858 * 50 	| 115354510	| 115354510 |
   | MemPool-Tile | 12	| 8484366	| 3501412	| 70477 * 50 	| 15509628	| 15548566.75 |
   | MemPool-Group | 362	| 271521737 |	94674144	| 1778913 * 50 	| 455141531	| 448353488.1 |
-  | TersPool-Cluster | 14327| 1103106843	| 285442676	| 5801104 * 50 	| 1678604719	| 1752964443 |
+  | MemPool-Cluster | 14327| 1103106843	| 285442676	| 5801104 * 50 	| 1678604719	| 1752964443 |
 
 ### Anouncement
 - We released a testcase with around 50M cells and 60M nets! - Jan 29, 2024
