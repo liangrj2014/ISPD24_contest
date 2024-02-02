@@ -27,7 +27,7 @@ During the evaluation process, the Docker images will be pulled and executed on 
 
 Please kindly archive your Docker image to a tar file (refer to https://docs.docker.com/engine/reference/commandline/save/). Subsequently, upload the tar archive to Google Drive and share the link with us. Please grant access to the Docker image for anyone with the link. The global router binary/scripts are expected to be stored in /workspace/router within the Docker image. Therefore, there is no need to upload the global router binary/scripts separately. If you have any questions regarding this, please feel free to ask. Thank you!
 
-Evaluation resource limit:
+Routing resource limit:
 - RAM: 200 GB
 - #Cores: 8 cores
   
@@ -57,6 +57,7 @@ Evaluation resource limit:
   | MemPool-Cluster | 14327| 1103106843	| 285442676	| 5801104 * 50 	| 1678604719	| 1752964443 |
 
 ### Anouncement
+- We released the routing resource limit - Feb 2, 2024
 - We released a testcase with around 50M cells and 60M nets! - Jan 29, 2024
 - We evaluated the alpha submissioms on public benchmarks and created the leader board. - Jan 22, 2024
 - We updated the submission guidance. -Jan 8, 2024
