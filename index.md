@@ -39,7 +39,7 @@ Routing resource limit:
   | NVDLA| 30 |
   | BlackParrot | 300	|
   | MemPool-Tile | 30	|
-  | MemPool-Group | 500 |
+  | MemPool-Group | 1000 |
   | MemPool-Cluster | 10000 |
   | TeraPool-Cluster | 50000 |
   
