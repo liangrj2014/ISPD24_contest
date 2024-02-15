@@ -57,6 +57,19 @@ Routing resource limit:
   | MemPool-Group | 362	| 271521737 |	94674144	| 1778913 * 50 	| 455141531	| 448353488.1 |
   | MemPool-Cluster | 14327| 1103106843	| 285442676	| 5801104 * 50 	| 1678604719	| 1752964443 |
 
+
+    - Best scores on pubic benchmarks (beta submission, updated on Jan 25, 2024)
+
+  |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
+  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
+  | Ariane133_51 | 9335109 |	3060400 |	10369862 | 22765372 | 22599641.13 | 4 | 11 | 22100882.44 |
+  
+  | Ariane133_68 | 13	| 9435932	| 2883456| 158823 * 50 	| 20260538	| 20176881.88 |
+  | BlackParrot | 120	| 58702634	| 20208976	| 728858 * 50 	| 115354510	| 115354510 |
+  | MemPool-Tile | 12	| 8484366	| 3501412	| 70477 * 50 	| 15509628	| 15548566.75 |
+  | MemPool-Group | 362	| 271521737 |	94674144	| 1778913 * 50 	| 455141531	| 448353488.1 |
+  | MemPool-Cluster | 14327| 1103106843	| 285442676	| 5801104 * 50 	| 1678604719	| 1752964443 |
+
 ### Anouncement
 - We released the routing resource limit - Feb 2, 2024
 - We released a testcase with around 50M cells and 60M nets! - Jan 29, 2024
