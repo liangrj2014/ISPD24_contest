@@ -58,7 +58,7 @@ Routing resource limit:
   | MemPool-Cluster | 14327| 1103106843	| 285442676	| 5801104 * 50 	| 1678604719	| 1752964443 |
 
 
-    - Best scores on pubic benchmarks (beta submission, updated on Feb 15, 2024)
+  - Best scores on pubic benchmarks (beta submission, updated on Feb 15, 2024)
 
   |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
   |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
