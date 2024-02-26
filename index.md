@@ -76,7 +76,7 @@ Routing resource limit:
 - We released a testcase with around 50M cells and 60M nets! - Jan 29, 2024
 - We evaluated the alpha submissioms on public benchmarks and created the leader board. - Jan 22, 2024
 - We updated the submission guidance. -Jan 8, 2024
-- We updated the benchmark input files. And a new design ("cluister") with around 10 million cells is released. - Jan 4, 2024
+- We updated the benchmark input files. And a new design ("cluster") with around 10 million cells is released. - Jan 4, 2024
 - We postponed the alpha submission date to Jan 12, 2024. - Jan 2, 2024.
 - We updated the global routing solution format and evaluation metrics. Please kinldy check the updated [Introduction of the contest](https://drive.google.com/file/d/1YiDORsgiImMg6vIO6EfwFj4VNg8Hb5k3/view?usp=sharing). - Jan 2, 2024.
 - We released the updated version of evaluation script. - Jan 2, 2024.
