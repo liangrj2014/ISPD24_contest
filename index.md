@@ -71,6 +71,91 @@ Routing resource limit:
   | MemPool-Cluster | 1094650057 | 268335040 | 300359611 | 1663344708	| 478	| 2048 |	1593513066 |
   | Tera-Cluster | 12190406272 | 1542639724	| 6705414754 | 20438460750 | 4310	| 4584 | 20402113329 |
 
+ - Best scores on pubic benchmarks (final submission, pending)
+
+  |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
+  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
+  | Ariane_rank |  |	 |	 |  | |  |  |
+  | BlackParrot_rank |  |  |  |  | 	|  |  |
+  | Nvdla_rank |  |		|  |  | 	|  |  |
+  | MemPool-Tile_rank |  | |  |  |		|  |  |
+  | MemPool-Group_rank |  |  |  |	 | |	|	 |
+  | MemPool-Cluster_rank |  |  |  | 	| 	|  |	 |
+  | Tera-Cluster_rank |  | 	|  |  |  |  |  |
+
+  - Scores of #1 team (Main track) on hidden benchmarks (final submission, updated on March 19, 2024)
+
+  |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
+  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
+  | Ariane_rank | 11931752.82 |	2906688 |	7764435.24 | 22602876.06 | 6.238 | 9.535 | 22326149.32 |
+  | BlackParrot_rank | 55573070.65 | 19738252 | 37798297.79 | 113109620.4 | 16.551	| 34.3625 | 110725458.3 |
+  | Nvdla_rank | 21472300.92 |	4661336	| 17062342.24 | 43195979.16 | 7.504	| 10.432 | 42785371.97 |
+  | MemPool-Tile_rank | 7541038.845 | 3346788 | 2939315.209 | 13827142.05 |	5.093	| 5.3315 | 13808883.1 |
+  | MemPool-Group_rank | 247299729.1 | 73566828 | 62771095.09 |	383637652.2 |	45.455 |	144.5285	|	370833031.1 |
+  | MemPool-Cluster_rank | 1185865082 | 282548572 | 313778179.9 | 1782191834	| 217.099	| 765.475 |	1717391261 |
+  | Tera-Cluster_rank | 7963801630 | 1690296724	| 2867829285 | 12521927639 | 1940.183 | 7716.82 | 12023100694 |
+
+   - Scores of #2 team (Main track) on hidden benchmarks (final submission, pending)
+
+  |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
+  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
+  | Ariane_rank |  |	 |	 |  | | 9.535 |  |
+  | BlackParrot_rank |  |  |  |  | 	| 34.3625 |  |
+  | Nvdla_rank |  |		|  |  | 	| 10.432 |  |
+  | MemPool-Tile_rank |  | |  |  |		| 5.3315 |  |
+  | MemPool-Group_rank |  |  |  |	 | |	144.5285	|	 |
+  | MemPool-Cluster_rank |  |  |  | 	| 	| 765.475 |	 |
+  | Tera-Cluster_rank |  | 	|  |  |  | 7716.82 |  |
+
+    - Scores of #3 team (Main track) on hidden benchmarks (final submission, pending)
+
+  |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
+  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
+  | Ariane_rank |  |	 |	 |  | | 9.535 |  |
+  | BlackParrot_rank |  |  |  |  | 	| 34.3625 |  |
+  | Nvdla_rank |  |		|  |  | 	| 10.432 |  |
+  | MemPool-Tile_rank |  | |  |  |		| 5.3315 |  |
+  | MemPool-Group_rank |  |  |  |	 | |	144.5285	|	 |
+  | MemPool-Cluster_rank |  |  |  | 	| 	| 765.475 |	 |
+  | Tera-Cluster_rank |  | 	|  |  |  | 7716.82 |  |
+
+   - Scores of #1 team (Special Honor track) on hidden benchmarks (final submission, pending)
+
+  |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
+  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
+  | Ariane_rank |  |	 |	 |  | |  |  |
+  | BlackParrot_rank |  |  |  |  | 	|  |  |
+  | Nvdla_rank |  |		|  |  | 	|  |  |
+  | MemPool-Tile_rank |  | |  |  |		|  |  |
+  | MemPool-Group_rank |  |  |  |	 | |	|	 |
+  | MemPool-Cluster_rank |  |  |  | 	| 	|  |	 |
+  | Tera-Cluster_rank |  | 	|  |  |  |  |  |
+
+   - Scores of #2 team (Special Honor track) on hidden benchmarks (final submission, pending)
+
+  |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
+  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
+  | Ariane_rank |  |	 |	 |  | |  |  |
+  | BlackParrot_rank |  |  |  |  | 	|  |  |
+  | Nvdla_rank |  |		|  |  | 	|  |  |
+  | MemPool-Tile_rank |  | |  |  |		|  |  |
+  | MemPool-Group_rank |  |  |  |	 | |	|	 |
+  | MemPool-Cluster_rank |  |  |  | 	| 	|  |	 |
+  | Tera-Cluster_rank |  | 	|  |  |  |  |  |
+
+   - Scores of #3 team (Special Honor track) on hidden benchmarks (final submission, pending)
+
+  |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
+  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
+  | Ariane_rank |  |	 |	 |  | |  |  |
+  | BlackParrot_rank |  |  |  |  | 	|  |  |
+  | Nvdla_rank |  |		|  |  | 	|  |  |
+  | MemPool-Tile_rank |  | |  |  |		|  |  |
+  | MemPool-Group_rank |  |  |  |	 | |	|	 |
+  | MemPool-Cluster_rank |  |  |  | 	| 	|  |	 |
+  | Tera-Cluster_rank |  | 	|  |  |  |  |  |
+
+
 ### Anouncement
 - We released the slides for the contest results/summary - March 19, 2024
 - We released the routing resource limit - Feb 2, 2024
