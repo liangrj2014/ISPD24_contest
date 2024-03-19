@@ -72,6 +72,7 @@ Routing resource limit:
   | Tera-Cluster | 12190406272 | 1542639724	| 6705414754 | 20438460750 | 4310	| 4584 | 20402113329 |
 
 ### Anouncement
+- We released the slides for the contest results/summary - March 19, 2024
 - We released the routing resource limit - Feb 2, 2024
 - We released a testcase with around 50M cells and 60M nets! - Jan 29, 2024
 - We evaluated the alpha submissioms on public benchmarks and created the leader board. - Jan 22, 2024
@@ -161,7 +162,7 @@ Routing resource limit:
 - Results Anouncement: March 15, 2024
 
 ### Downloads
-- [Final contest result](https://github.com/liangrj2014/ISPD24_contest/blob/main/contest_slides.pptx) - March 15, 2024.
+- [Final contest result](https://github.com/liangrj2014/ISPD24_contest/blob/main/16_1_contest_slides_final.pptx) - March 19, 2024.
 - [Introduction of the contest](https://drive.google.com/file/d/1yEgcjHAZOyFHKlfYhzHe8ZeZuefEK2sP/view?usp=drive_link) Note that the introduction has been updated on Jan 29, 2024.
 - [First set of benchmarks with Nangate45 technology node](https://drive.google.com/drive/folders/1afrsbeS_KuSeHEVfuQOuLWPuuZqlDVlw?usp=sharing)
 Please note that all the essential input information for global routing is contained within the .cap files and .net files located in the "Simple_inputs" folder. We also release the LEF/DEF files of the circuits just for reference. Note that the benchmarks have been updated on Jan 29, 2024.
