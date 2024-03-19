@@ -75,13 +75,14 @@ Routing resource limit:
 
   |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
   |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
-  | Ariane_rank |  |	 |	 |  | |  |  |
-  | BlackParrot_rank |  |  |  |  | 	|  |  |
-  | Nvdla_rank |  |		|  |  | 	|  |  |
-  | MemPool-Tile_rank |  | |  |  |		|  |  |
-  | MemPool-Group_rank |  |  |  |	 | |	|	 |
-  | MemPool-Cluster_rank |  |  |  | 	| 	|  |	 |
-  | Tera-Cluster_rank |  | 	|  |  |  |  |  |
+  | Ariane133_51 |  |	 |	 |  | |  |  |
+  | Ariane133_68 |  |	 |	 |  | |  |  |
+  | BlackParrot |  |  |  |  | 	|  |  |
+  | Nvdla |  |		|  |  | 	|  |  |
+  | MemPool-Tile |  | |  |  |		|  |  |
+  | MemPool-Group |  |  |  |	 | |	|	 |
+  | MemPool-Cluster |  |  |  | 	| 	|  |	 |
+  | Tera-Cluster |  | 	|  |  |  |  |  |
 
   - Scores of #1 team (Main track) on hidden benchmarks (final submission, updated on March 19, 2024)
 
