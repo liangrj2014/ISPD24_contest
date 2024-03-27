@@ -108,17 +108,17 @@ Routing resource limit:
   | MemPool-Cluster_rank | 1190412465 | 274145704 | 359968884.8 | 1824527054	| 124.417	| 765.475 |	1728879082 |
   | Tera-Cluster_rank | 8039402094 | 1488566820	| 3148098101 | 12676067016 | 1352.127 | 7716.82 | 12039024729 |
 
-    - Scores of #3 team (Main track) on hidden benchmarks (final submission, pending)
+    - Scores of #3 team (Main track) on hidden benchmarks (final submission)
 
   |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
   |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
-  | Ariane_rank |  |	 |	 |  | | 9.535 |  |
-  | BlackParrot_rank |  |  |  |  | 	| 34.3625 |  |
-  | Nvdla_rank |  |		|  |  | 	| 10.432 |  |
-  | MemPool-Tile_rank |  | |  |  |		| 5.3315 |  |
-  | MemPool-Group_rank |  |  |  |	 | |	144.5285	|	 |
-  | MemPool-Cluster_rank |  |  |  | 	| 	| 765.475 |	 |
-  | Tera-Cluster_rank |  | 	|  |  |  | 7716.82 |  |
+  | Ariane_rank | 12021241.28 |	2813744 |	7986303.865 | 22821289.14 | 1.443 | 9.535 | 21577911.53 |
+  | BlackParrot_rank | 55751772.56 | 19182208 | 36844605.46 | 111778586 | 8.689	| 34.3625 | 107344166.4 |
+  | Nvdla_rank | 21693203.41 |	4455428 | 17146460.17 | 43295091.59 | 4.102	| 10.432 | 42129054 |
+  | MemPool-Tile_rank | 7578562.281 | 3233024 | 3055538.132 | 13867124.41 |	1.057	| 5.3315 | 13219650.04 |
+  | MemPool-Group_rank | 249498393.4 | 70274012 | 68427932.19 |	388200337.6 | 22.408 |	144.5285	|	367320841 |
+  | MemPool-Cluster_rank | 1189656494 | 270441852 | 335426594.9 | 1795524941	| 275.123	| 765.475 |	1742511044 |
+  | Tera-Cluster_rank | 7970278976 | 1442567228	| 3184651822 | 12597498026 | 1862.479 | 7716.82 | 12080803508 |
 
    - Scores of #1 team (Special Honor track) on hidden benchmarks (final submission, pending)
 
