@@ -124,13 +124,13 @@ Routing resource limit:
 
   |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
   |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
-  | Ariane_rank |  |	 |	 |  | |  |  |
-  | BlackParrot_rank |  |  |  |  | 	|  |  |
-  | Nvdla_rank |  |		|  |  | 	|  |  |
-  | MemPool-Tile_rank |  | |  |  |		|  |  |
-  | MemPool-Group_rank |  |  |  |	 | |	|	 |
-  | MemPool-Cluster_rank |  |  |  | 	| 	|  |	 |
-  | Tera-Cluster_rank |  | 	|  |  |  |  |  |
+  | Ariane_rank | 12051686.81 | 2959392 |	8082422.507 | 23093501.32 | 2.234 | 7.535 | 21068226.28 |
+  | BlackParrot_rank | 55847570.15 | 19505444 | 35633766.41 | 110986780.6 | 9.573	| 34.3625 | 100754953.7 |
+  | Nvdla_rank | 21840287.42 |	4586500	| 17714764.37 | 44141551.79 | 3.295	| 10.216 | 40538541.63 |
+  | MemPool-Tile_rank | 7601380.712 | 3308184 | 3223704.168 | 14133268.88 |	2.085	| 5.015 | 13238489.99 |
+  | MemPool-Group_rank | 250445949.5 | 74362960 | 70679949.95 |	395488859.5 | 27.603 | 121.879	|	353121075.5 |
+  | MemPool-Cluster_rank | 1190412465 | 274145704 | 359968884.8 | 1824527054	| 124.417	| 712.241 |	1594893733 |
+  | Tera-Cluster_rank | 8039402094 | 1488566820	| 3148098101 | 12676067016 | 1352.127 | 5331.15 | 11421633213 |
 
    - Scores of #2 team (Special Honor track) on hidden benchmarks (final submission, pending)
 
@@ -158,6 +158,7 @@ Routing resource limit:
 
 
 ### Anouncement
+- We released the hidden benchmarks - March 26, 2024
 - We released the slides for the contest results/summary - March 19, 2024
 - We released the routing resource limit - Feb 2, 2024
 - We released a testcase with around 50M cells and 60M nets! - Jan 29, 2024
