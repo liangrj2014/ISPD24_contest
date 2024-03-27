@@ -120,7 +120,7 @@ Routing resource limit:
   | MemPool-Cluster_rank | 1189656494 | 270441852 | 335426594.9 | 1795524941	| 275.123	| 765.475 |	1742511044 |
   | Tera-Cluster_rank | 7970278976 | 1442567228	| 3184651822 | 12597498026 | 1862.479 | 7716.82 | 12080803508 |
 
-   - Scores of #1 team (Special Honor track) on hidden benchmarks (final submission, pending)
+   - Scores of #1 team (Special Honor track) on hidden benchmarks (final submission)
 
   |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
   |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
