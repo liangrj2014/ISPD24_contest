@@ -158,7 +158,7 @@ Routing resource limit:
 
 
 ### Anouncement
-- We released the hidden benchmarks - March 26, 2024
+- We released the hidden benchmarks and contest results- March 26, 2024
 - We released the slides for the contest results/summary - March 19, 2024
 - We released the routing resource limit - Feb 2, 2024
 - We released a testcase with around 50M cells and 60M nets! - Jan 29, 2024
