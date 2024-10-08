@@ -1,70 +1,52 @@
-FROM nvcr.io/nvidia/pytorch:22.05-py3
-MAINTAINER <rliang@nvidia.com>
+FROM ubuntu:22.04
 
-ARG ssh_prv_key
-ARG ssh_pub_key
-
-RUN echo "$ssh_prv_key"
-RUN echo "$ssh_pub_key"
-RUN mkdir /root/.ssh && \
-    echo "$ssh_prv_key" > /root/.ssh/id_ed25519 && \
-    echo "$ssh_pub_key" > /root/.ssh/id_ed25519.pub && \
-    chmod 600 /root/.ssh/id_ed25519 && \
-    chmod 600 /root/.ssh/id_ed25519.pub && \
-    ssh-keyscan -t rsa github.com >> /root/.ssh/known_hosts
-
-RUN rm /root/.ssh/id_ed25519 && \
-    rm /root/.ssh/id_ed25519.pub
-
-# update torch
-RUN pip install --upgrade pip
+WORKDIR /src
 
 ARG DEBIAN_FRONTEND=noninteractive
-RUN apt-get update \
-        && apt-get install -y \
-            wget \
-            flex \
-            libcairo2-dev
+RUN apt-get update && apt-get install -y gnupg2 ca-certificates
 
-RUN pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio===0.13.1+cu117  -f https://download.pytorch.org/whl/cu117/torch_stable.html
+RUN echo "deb [trusted=yes] https://downloads.skewed.de/apt jammy main" >> /etc/apt/sources.list
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-key 612DEFB798507F25
+RUN apt-get update
 
-RUN wget -O boost_1_66_0.tar.gz https://boostorg.jfrog.io/artifactory/main/release/1.66.0/source/boost_1_66_0.tar.gz && \
-    tar xvf boost_1_66_0.tar.gz && \
-    cd boost_1_66_0 && \
-    ./bootstrap.sh  &&\
-    ./b2 -q install -j 16 --without-python
+RUN apt-get install -y git
+RUN apt-get install -y software-properties-common
+RUN add-apt-repository ppa:ubuntu-toolchain-r/test -y
+RUN apt-get update
+RUN apt-get install -y gcc-11 g++-11
+RUN update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 100
+RUN update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 100
 
-# install system dependency from conda
-RUN conda install -y -c conda-forge bison
+RUN apt-get install -y libpython-all-dev
+RUN apt-get install -y libboost-all-dev
+RUN apt-get install -y libcairo2
+RUN apt-get install -y libcairo2-dev
+RUN apt-get install -y python3-matplotlib
+RUN apt-get update
+RUN apt-get install -y python3-graph-tool
 
-# install cmake
-ADD https://cmake.org/files/v3.21/cmake-3.21.0-linux-x86_64.sh /cmake-3.21.0-linux-x86_64.sh
-RUN mkdir /opt/cmake \
-        && sh /cmake-3.21.0-linux-x86_64.sh --prefix=/opt/cmake --skip-license \
-        && ln -s /opt/cmake/bin/cmake /usr/local/bin/cmake \
-        && cmake --version
+RUN apt-get -y purge nvidia*
+RUN apt remove -y nvidia-*
+RUN apt-get -y autoremove
 
+RUN apt-get install -y vim
+RUN apt-get install -y python3-pip
 
-# install python dependency 
-RUN pip install \
-        pyunpack>=0.1.2 \
-        patool>=1.12 \
-        matplotlib>=2.2.2 \
-        cairocffi>=0.9.0 \
-        pkgconfig>=1.4.0 \
-        setuptools>=39.1.0 \
-        scipy>=1.1.0 \
-        numpy>=1.15.4 \
-        shapely>=1.7.0 \
-        pygmo>=2.16.1 \
-        pyDOE2>=1.3.0 \
-        shap>=0.41.0 \
-        Pyro4>=4.82 \
-        ConfigSpace>=0.6.0 \
-        statsmodels>=0.13.2 \
-        xgboost>=1.5.1
+RUN pip install pycairo==1.20.1
+RUN pip install pandas==2.2.2
+RUN pip install scikit-learn
+RUN pip install numpy==1.24.4
+RUN pip install pydantic
+RUN pip install pyyaml
 
-# install dgl
-RUN pip install  dgl -f https://data.dgl.ai/wheels/cu117/repo.html
-RUN pip install  dglgo -f https://data.dgl.ai/wheels-test/repo.html
+WORKDIR /app
+RUN git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD.git
 
+WORKDIR /app/OpenROAD
+RUN ./etc/DependencyInstaller.sh
+RUN mkdir build
+WORKDIR /app/OpenROAD/build
+RUN cmake ..
+RUN make -j 6
+
+WORKDIR /app
