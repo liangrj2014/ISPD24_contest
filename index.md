@@ -71,19 +71,6 @@ Routing resource limit:
   | MemPool-Cluster | 1094650057 | 268335040 | 300359611 | 1663344708	| 478	| 2048 |	1593513066 |
   | Tera-Cluster | 12190406272 | 1542639724	| 6705414754 | 20438460750 | 4310	| 4584 | 20402113329 |
 
- - Best scores on pubic benchmarks (final submission, pending)
-
-  |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
-  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |----  |
-  | Ariane133_51 |  |	 |	 |  | |  |  |
-  | Ariane133_68 |  |	 |	 |  | |  |  |
-  | BlackParrot |  |  |  |  | 	|  |  |
-  | Nvdla |  |		|  |  | 	|  |  |
-  | MemPool-Tile |  | |  |  |		|  |  |
-  | MemPool-Group |  |  |  |	 | |	|	 |
-  | MemPool-Cluster |  |  |  | 	| 	|  |	 |
-  | Tera-Cluster |  | 	|  |  |  |  |  |
-
   - Scores of #1 team (Main track) on hidden benchmarks (final submission, updated on March 19, 2024)
 
   |  design | WL cost | via cost| overflow cost | raw score | runtime /s | median runtime /s | scaled score |
