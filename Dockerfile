@@ -40,7 +40,8 @@ RUN pip install pydantic
 RUN pip install pyyaml
 
 WORKDIR /app
-RUN git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD.git
+RUN git clone --recursive https://github.com/liangrj2014/OpenROAD_ISPD25.git
+# RUN git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD.git
 
 WORKDIR /app/OpenROAD
 RUN ./etc/DependencyInstaller.sh
