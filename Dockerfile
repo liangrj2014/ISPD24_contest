@@ -43,7 +43,7 @@ WORKDIR /app
 RUN git clone --recursive https://github.com/liangrj2014/OpenROAD_ISPD25.git
 # RUN git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD.git
 
-WORKDIR /app/OpenROAD
+WORKDIR /app/OpenROAD_ISPD25
 RUN ./etc/DependencyInstaller.sh
 RUN mkdir build
 WORKDIR /app/OpenROAD/build
